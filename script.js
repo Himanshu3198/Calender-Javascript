@@ -78,5 +78,4 @@ document.querySelector(".next").addEventListener("click", () => {
   date.setMonth(date.getMonth() + 1);
   renderCalendar();
 });
-
-renderCalendar();
+window.onload=renderCalendar();
