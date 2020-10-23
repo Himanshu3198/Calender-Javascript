@@ -1,5 +1,5 @@
 const date = new Date();
-
+window.onload=renderCalendar();
 const renderCalendar = () => {
   date.setDate(1);
 
@@ -78,4 +78,4 @@ document.querySelector(".next").addEventListener("click", () => {
   date.setMonth(date.getMonth() + 1);
   renderCalendar();
 });
-window.onload=(renderCalendar());
+
