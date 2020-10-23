@@ -1,5 +1,5 @@
 const date = new Date();
-window.onload=renderCalendar();
+window.onload=renderCalendar;
 const renderCalendar = () => {
   date.setDate(1);
 
