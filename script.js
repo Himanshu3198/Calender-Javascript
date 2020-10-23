@@ -77,5 +77,5 @@ document.querySelector(".next").addEventListener("click", () => {
   date.setMonth(date.getMonth() + 1);
   renderCalendar();
 });
-window.onload=renderCalenda();
+window.onload=renderCalendar();
 
